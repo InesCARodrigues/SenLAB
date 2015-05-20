@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/SensorEletrico.java" line="46" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ddb000-58a5-4dc7-8b4f-09930baa66e3" name="Default" comment="" />
+    <list default="true" id="05ddb000-58a5-4dc7-8b4f-09930baa66e3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Leituras.class" afterPath="$PROJECT_DIR$/bin/Leituras.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/SenLab.class" afterPath="$PROJECT_DIR$/bin/SenLab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Leituras.java" afterPath="$PROJECT_DIR$/src/Leituras.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SenLab.java" afterPath="$PROJECT_DIR$/src/SenLab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="LaboratorioExames.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -42,31 +48,31 @@
         <entry file="file://$PROJECT_DIR$/src/SenLab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="322" column="34" selection-start-line="322" selection-start-column="34" selection-end-line="322" selection-end-column="34" />
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#552#562#0" expanded="true" />
                 <element signature="e#710#726#0" expanded="true" />
                 <element signature="e#887#904#0" expanded="true" />
-                <element signature="e#2157#2158#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
-                <element signature="e#2380#2389#0" expanded="true" />
-                <element signature="e#5030#5039#0" expanded="true" />
-                <element signature="e#6376#6377#0" expanded="true" />
-                <element signature="e#6413#6414#0" expanded="true" />
-                <element signature="e#7811#7812#0" expanded="true" />
-                <element signature="e#7849#7850#0" expanded="true" />
-                <element signature="e#9866#9874#0" expanded="true" />
+                <element signature="e#2296#2297#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2519#2528#0" expanded="true" />
+                <element signature="e#5169#5178#0" expanded="true" />
+                <element signature="e#6515#6516#0" expanded="true" />
+                <element signature="e#6552#6553#0" expanded="true" />
+                <element signature="e#7950#7951#0" expanded="true" />
+                <element signature="e#7988#7989#0" expanded="true" />
+                <element signature="e#10005#10013#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Paciente.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Paciente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Paciente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.2229402">
-              <caret line="155" column="34" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="e#671#680#0" expanded="true" />
                 <element signature="e#1496#1497#0" expanded="true" />
@@ -83,6 +89,27 @@
                 <element signature="e#2834#2835#0" expanded="true" />
                 <element signature="e#2881#2882#0" expanded="true" />
                 <element signature="e#2912#2913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leituras.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Leituras.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44117647">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#227#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +193,9 @@
         <option value="$PROJECT_DIR$/src/SensorEletrico.java" />
         <option value="$PROJECT_DIR$/src/SensorAnalogico.java" />
         <option value="$PROJECT_DIR$/src/Sensores.java" />
-        <option value="$PROJECT_DIR$/src/SenLab.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/SenLab.java" />
+        <option value="$PROJECT_DIR$/src/Leituras.java" />
       </list>
     </option>
   </component>
@@ -185,9 +213,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -255,7 +282,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
@@ -451,8 +478,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -463,14 +490,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26987952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33012047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2067239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11612022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1746988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -521,15 +548,15 @@
             <element signature="e#552#562#0" expanded="true" />
             <element signature="e#710#726#0" expanded="true" />
             <element signature="e#887#904#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2380#2389#0" expanded="true" />
-            <element signature="e#5030#5039#0" expanded="true" />
-            <element signature="e#6376#6377#0" expanded="true" />
-            <element signature="e#6413#6414#0" expanded="true" />
-            <element signature="e#7811#7812#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
-            <element signature="e#9866#9874#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2519#2528#0" expanded="true" />
+            <element signature="e#5169#5178#0" expanded="true" />
+            <element signature="e#6515#6516#0" expanded="true" />
+            <element signature="e#6552#6553#0" expanded="true" />
+            <element signature="e#7950#7951#0" expanded="true" />
+            <element signature="e#7988#7989#0" expanded="true" />
+            <element signature="e#10005#10013#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,15 +649,15 @@
             <element signature="e#552#562#0" expanded="true" />
             <element signature="e#710#726#0" expanded="true" />
             <element signature="e#887#904#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2380#2389#0" expanded="true" />
-            <element signature="e#5030#5039#0" expanded="true" />
-            <element signature="e#6376#6377#0" expanded="true" />
-            <element signature="e#6413#6414#0" expanded="true" />
-            <element signature="e#7811#7812#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
-            <element signature="e#9866#9874#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2519#2528#0" expanded="true" />
+            <element signature="e#5169#5178#0" expanded="true" />
+            <element signature="e#6515#6516#0" expanded="true" />
+            <element signature="e#6552#6553#0" expanded="true" />
+            <element signature="e#7950#7951#0" expanded="true" />
+            <element signature="e#7988#7989#0" expanded="true" />
+            <element signature="e#10005#10013#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leituras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028355388">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325527">
@@ -750,28 +770,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1009#1010#0" expanded="true" />
             <element signature="e#1065#1066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SenLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="322" column="34" selection-start-line="322" selection-start-column="34" selection-end-line="322" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#562#0" expanded="true" />
-            <element signature="e#710#726#0" expanded="true" />
-            <element signature="e#887#904#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2380#2389#0" expanded="true" />
-            <element signature="e#5030#5039#0" expanded="true" />
-            <element signature="e#6376#6377#0" expanded="true" />
-            <element signature="e#6413#6414#0" expanded="true" />
-            <element signature="e#7811#7812#0" expanded="true" />
-            <element signature="e#7849#7850#0" expanded="true" />
-            <element signature="e#9866#9874#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,10 +807,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../labs/exam-1123 2.lab">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41195476">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam-1123 4.lab">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SenLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#562#0" expanded="true" />
+            <element signature="e#710#726#0" expanded="true" />
+            <element signature="e#887#904#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2519#2528#0" expanded="true" />
+            <element signature="e#5169#5178#0" expanded="true" />
+            <element signature="e#6515#6516#0" expanded="true" />
+            <element signature="e#6552#6553#0" expanded="true" />
+            <element signature="e#7950#7951#0" expanded="true" />
+            <element signature="e#7988#7989#0" expanded="true" />
+            <element signature="e#10005#10013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Paciente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2229402">
-          <caret line="155" column="34" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="e#671#680#0" expanded="true" />
             <element signature="e#1496#1497#0" expanded="true" />
@@ -829,6 +865,33 @@
             <element signature="e#2834#2835#0" expanded="true" />
             <element signature="e#2881#2882#0" expanded="true" />
             <element signature="e#2912#2913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam-1123.lab">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10380623">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leituras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#227#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>

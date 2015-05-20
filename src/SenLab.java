@@ -38,25 +38,35 @@ public class SenLab implements Serializable {
     public void baseDados(SenLab gestor)
     {
 
+
+        Leituras teste = new Leituras();
+        String exame;
+        exame = teste.carregaExame("exam-1123.lab");
+
+
+
+
+
+
         /** ISTO É TUDO APENAS PARA DEBUG! :) No final é para apagar **/
 
         // Adiciona paciente
-        Paciente a = new Paciente("Joao",1,32,1,1,'M',true,true,1234);
-        Paciente c = new Paciente("Maria",1,32,1,1,'M',true,true,1233);
+       // Paciente a = new Paciente("Joao",1,32,1,1,'M',true,true,1234);
+       // Paciente c = new Paciente("Maria",1,32,1,1,'M',true,true,1233);
 
-        this.inserirPaciente(a);
-        this.inserirPaciente(c);
+        //this.inserirPaciente(a);
+       // this.inserirPaciente(c);
      //   this.listaPacientes();
 
       //  this.numeroPacientes();
 
         // Adiciona sensores electricos
-        float[] array = new float[]{1,2,3};
+       /* float[] array = new float[]{1,2,3};
         Calendar data1 = new GregorianCalendar();
         SensorEletrico b = new SensorEletrico(1234,"Joao", "ECG",data1,array);
         SensorEletrico d = new SensorEletrico(1233,"Maria", "ECG",data1,array);
         this.inserirSensorEletrico(b);
-        this.inserirSensorEletrico(d);
+        this.inserirSensorEletrico(d);    */
 
       //  this.listaSensoresEletricos();
 
