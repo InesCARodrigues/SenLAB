@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.*;
 
-public class Paciente {
+public class Paciente implements Serializable {
 
 
 	/** CLASS PACIENTE CORRECTAMENTE IMPLEMENTADA
@@ -19,8 +20,6 @@ public class Paciente {
 	 //private static int numPaciente;												// Variavel estática permite incremetar o numero de pacientes de forma unica
 	 private int id;
      private int idade;
-	 private int leituras;
-	 private int contadorExames;
 	 private int numLeituras;														// Numero de leituas
 	 private ArrayList <Integer> idExames = new ArrayList<Integer>();					// Array com os Numeros de Leituras dos Sensores
      private char sexo;
@@ -30,13 +29,11 @@ public class Paciente {
 
 
 	//Construtores
-	public Paciente(String nome,int id,int idade, int leituras, int contadorExames,char sexo, boolean tomaMedicacao,boolean fuma,int idExames)
+	public Paciente(String nome,int id,int idade,char sexo, boolean tomaMedicacao,boolean fuma,int idExames)
 	{
 		this.id = id;																// id = identificador unico do utilizador
 		this.nome = nome;
 		this.idade = idade;
-		this.leituras = leituras;
-		this.contadorExames = contadorExames;
 		this.sexo = sexo;
 		this.tomaMedicacao = tomaMedicacao;
 		this.fuma = fuma;
@@ -48,6 +45,8 @@ public class Paciente {
 
 	// SETTERS
 
+
+
 	public void setNome(String nome){
 		this.nome = nome;
 	}
@@ -56,13 +55,6 @@ public class Paciente {
 		this.idade = idade;
 	}
 
-	public void setLeituras(int leituras) {
-		this.leituras = leituras;
-	}
-
-	public void setContadorExames(int contadorExames) {
-		this.contadorExames = contadorExames;
-	}
 
 	public void setSexo(char sexo) {
 		this.sexo = sexo;
@@ -105,14 +97,6 @@ public class Paciente {
 		return idade;
 	}
 
-	public int getLeituras() {
-		return leituras;
-	}
-
-	public int getContadorExames() {
-		return contadorExames;
-	}
-
 	public char getSexo() {
 		return sexo;
 	}
@@ -153,11 +137,36 @@ public class Paciente {
 
     public String toString2(){
         return "(ID,Nome,Sexo,Idade,Fuma,Medicamentos,Leituras)\n"+
-                "\t"+id + "\t|\t"+ nome + "\t|\t"+ sexo + "\t|\t" + idade + "\t|\t"+ getFuma() + "\t|\t"+ getTomaMedicacao() + "\t|\t" + leituras + "\n" ;
+                "\t"+id + "\t|\t"+ nome + "\t|\t"+ sexo + "\t|\t" + idade + "\t|\t"+ getFuma() + "\t|\t"+ getTomaMedicacao()+ "\t|\t"+ numLeituras  + "\n" ;
     }
 
 
 	/************* METODOS DA CLASS ******************/
+
+
+    public void adiconaIdExame(int id){
+        this.idExames.add(id);
+    }
+
+	public void removeIdExame(int id){
+		int i;
+
+		for(i = 0; i < idExames.size();i++){
+			if(idExames.get(i) == id){
+				idExames.remove(i);
+				i--;
+			}
+		}
+
+	}
+
+
+	public void removeLeitura(){
+		this.numLeituras--;
+	}
+
+
+
 
 
 }

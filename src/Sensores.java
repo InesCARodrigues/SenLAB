@@ -72,7 +72,7 @@ public class Sensores implements Serializable{
 
     @Override
     public String toString() {
-        return "\t"+ dataFormatada() +"\t|\t"+  numLeitura + "\t|\t";
+        return "\t"+ dataFormatada() +"\t|\t"+  numLeitura + "\t|\t"+  nomeSensor + "\t|\t";
     }
 
 

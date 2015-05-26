@@ -11,7 +11,10 @@ public class SensorEletrico extends Sensores {
 
     SensorEletrico(int numLeitura,String nomePaciente, String nomeSensor,Calendar data,float[] valor) {
         super(numLeitura,nomePaciente, nomeSensor,data);
-        this.valor = valor;
+        for(int i = 0; i < 120; i++){
+            this.valor[i] = valor[i];
+        }
+
     }
 
 
@@ -42,6 +45,7 @@ public class SensorEletrico extends Sensores {
             return super.toString() + saudavel();
     }
 
+
     /************* METODOS DA CLASS ******************/
 
     public String saudavel(){
@@ -67,7 +71,7 @@ public class SensorEletrico extends Sensores {
             else
                 return "Doente";
 
-        else if(this.getNomeSensor().toUpperCase().equals("EMF")){
+        else if(this.getNomeSensor().toUpperCase().equals("EMG")){
             if(algoritmoEMG())
                 return "Saudavel";
             else
